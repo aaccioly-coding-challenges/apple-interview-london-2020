@@ -2,7 +2,6 @@
 
 ## First Problem
 
-----
 Find the running median play duration of stream of play events
 
 Median is the middle element in a list of sorted numbers; if the size of
