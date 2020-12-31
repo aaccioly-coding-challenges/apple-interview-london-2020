@@ -1,6 +1,6 @@
 # Apple Interview 2020
 
-## First Problem
+## First Problem - Median Finder
 
 Find the running median play duration of stream of play events
 
