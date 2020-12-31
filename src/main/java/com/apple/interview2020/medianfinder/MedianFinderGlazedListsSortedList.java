@@ -1,4 +1,4 @@
-package com.apple.interview2020.firstproblem;
+package com.apple.interview2020.medianfinder;
 
 import ca.odell.glazedlists.BasicEventList;
 import ca.odell.glazedlists.SortedList;

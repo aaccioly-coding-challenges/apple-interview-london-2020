@@ -1,4 +1,4 @@
-package com.apple.interview2020.firstproblem;
+package com.apple.interview2020.medianfinder;
 
 class MedianFinderTwoHeapsTest implements MedianFinderContract<MedianFinderTwoHeaps> {
     @Override

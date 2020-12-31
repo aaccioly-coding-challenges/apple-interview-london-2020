@@ -1,6 +1,4 @@
-package com.apple.interview2020.firstproblem;
-
-import org.junit.jupiter.api.Nested;
+package com.apple.interview2020.medianfinder;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

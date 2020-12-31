@@ -1,4 +1,4 @@
-package com.apple.interview2020.firstproblem;
+package com.apple.interview2020.medianfinder;
 
 class MedianFinderGlazedListsSortedListTest implements MedianFinderContract<MedianFinderGlazedListsSortedList> {
     @Override
