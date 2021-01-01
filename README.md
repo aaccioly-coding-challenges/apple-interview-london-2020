@@ -62,3 +62,8 @@ current median play duration, at each point in the stream
 
     ./gradlew test --rerun-tasks
 
+### How to run benchmarks
+
+    ./gradlew jmh
+
+⚠️ Benchmarks can take a long time to run (circa 01:40:00 minutes on an i7-7700HQ with 24GB RAM)
