@@ -22,9 +22,9 @@ public class MedianFinderArrayList implements MedianFinder  {
         // But the underlying call to System.arrayCopy is fast for small collections
         durations.add(idxToInsert, nextPlayEvent.getDuration());
 
-        long median;
+        Long median = 0L;
         final int middle = durations.size() / 2;
-        if (durations.size() % 2 == 0) {
+        if ((durations.size() & 1) == 0) {
             median = (durations.get(middle - 1) + durations.get(middle)) / 2;
         } else {
             median = durations.get(middle);

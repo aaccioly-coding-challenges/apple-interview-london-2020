@@ -17,9 +17,9 @@ public class MedianFinderGlazedListsSortedList implements MedianFinder  {
 
         durations.add(nextPlayEvent.getDuration()); // O(log n)
 
-        long median;
+        Long median;
         final int middle = durations.size() / 2;
-        if (durations.size() % 2 == 0) {
+        if ((durations.size() & 1) == 0) {
             median = (durations.get(middle - 1) + durations.get(middle)) / 2;
         } else {
             median = durations.get(middle);

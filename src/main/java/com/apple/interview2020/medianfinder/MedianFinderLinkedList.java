@@ -6,7 +6,7 @@ public class MedianFinderLinkedList implements MedianFinder {
 
     private final LinkedList<Long> durations;
     private ListIterator<Long> iterator;
-    private long lastMedian = 0;
+    private long lastMedian = 0L;
 
     public MedianFinderLinkedList() {
         durations = new LinkedList<>();
@@ -15,7 +15,7 @@ public class MedianFinderLinkedList implements MedianFinder {
 
     @Override
     public Long getNextMedianPlayDuration(PlayEvent nextPlayEvent) {
-        final long duration = nextPlayEvent.getDuration();
+        final Long duration = nextPlayEvent.getDuration();
 
         final int middle = (durations.size() + 1) / 2;
 
@@ -56,8 +56,8 @@ public class MedianFinderLinkedList implements MedianFinder {
             }
         }
 
-        long median;
-        if (durations.size() % 2 == 0) {
+        Long median;
+        if ((durations.size() & 1) == 0) {
             median = iterator.next();
             iterator.previous();
             median += iterator.previous();
